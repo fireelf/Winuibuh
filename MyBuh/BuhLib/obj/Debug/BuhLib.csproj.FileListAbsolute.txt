@@ -1,0 +1,14 @@
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\bin\Debug\BuhLib.dll
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\bin\Debug\BuhLib.pdb
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\bin\Debug\BuhLib.pri
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\BuhLib.dll
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\BuhLib.pdb
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\priconfig.xml.intermediate
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\layout.resfiles.intermediate
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\resources.resfiles.intermediate
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\pri.resfiles.intermediate
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\priconfig.xml
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\layout.resfiles
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\resources.resfiles
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\pri.resfiles
+C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\obj\Debug\LanguageQualifiers.txt

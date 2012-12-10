@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Puma.Net.PumaFontSettings" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAAABAAAIAAAABgFAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>PumaFontSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puma.Net.PumaPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="FontSettings" Type="Puma.Net.PumaFontSettings" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="4.312" />
+        <Point X="7.906" Y="4.312" />
+        <Point X="7.906" Y="3.062" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Extension" Type="Puma.Net.IPumaExtension" FixedFromPoint="true">
+      <Path>
+        <Point X="10" Y="4.375" />
+        <Point X="11.25" Y="4.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAICAQAACjAQQAEAEAoABBMMAABGAwHAiwEGgAgARCE=</HashCode>
+      <FileName>PumaPage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Language" />
+      <Property Name="FontSettings" />
+      <Property Name="FileFormat" />
+      <Property Name="Extension" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Bottom" Position="0.1" />
+  </Class>
+  <Class Name="Puma.Net.RecognitionEngineException" Collapsed="true">
+    <Position X="7" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>RecognitionEngineException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puma.Net.RecognitionEventArgs" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAQAIAAEAAAAAAAAAA=</HashCode>
+      <FileName>RecognitionEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Puma.Net.IPumaExtension" Collapsed="true">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAgAAEQAAQAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPumaExtension.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Puma.Net.PumaFileFormat" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAEAQAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAEgQ=</HashCode>
+      <FileName>PumaFileFormat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Puma.Net.PumaLanguage" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAoCQABKAAEAAQIHIAAEABAAABAgQAIAAQCAAAAA=</HashCode>
+      <FileName>PumaLanguage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Puma.Net.RecognitionProgressEventHandler" Collapsed="true">
+    <Position X="9.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>RecognitionProgressEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

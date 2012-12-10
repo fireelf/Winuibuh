@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Puma.Net.Utilities
+{
+
+    /// <summary>
+    /// The namespace contains classes that may be useful while pupulating GUI with lists
+    /// like Languages, Fonts, File Formats.
+    /// </summary>
+    /// <seealso cref="PumaPage"/>
+    class NamespaceDoc
+    { }  
+
+   /// <summary>
+   /// Provides helper functionality to work with string representation of file formats
+   /// </summary>
+    public static class FileFormatStrings
+    {
+        private const int maxFormat = 8;
+        
+        /// <summary>
+        /// Gets names of supported file formats
+        /// </summary>
+        /// <returns>
+        /// File formats' names
+        /// </returns>
+        public static IList<string> GetAllFormats()
+        {
+            List<string> list = new List<string>();
+
+            for (int i = 0; i < maxFormat; i++)
+                list.Add(((PumaFileFormat)i).ToString());
+            
+            return list;
+        }
+
+        /// <summary>
+        /// Parses format name and returns enumeration
+        /// </summary>
+        /// <param name="formatString">Format name</param>
+        /// <returns>Enumeration holding valid format</returns>
+        public static PumaFileFormat GetFormat(string formatString)
+        {
+            return (PumaFileFormat)Enum.Parse(typeof(PumaFileFormat), formatString);   
+        }
+    }
+}

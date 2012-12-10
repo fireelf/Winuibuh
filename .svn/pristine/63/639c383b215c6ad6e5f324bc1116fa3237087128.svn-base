@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Resources;
+
+namespace Puma.Net.Utilities
+{
+    /// <summary>
+    /// Helper class to work with languages collections
+    /// </summary>
+    public static class LanguageStrings
+    {
+        private const short maxLanguage = 27;
+        
+        private static readonly ResourceManager resourceManager = Resources.Resources.ResourceManager;
+
+        private static Dictionary<string,PumaLanguage> lang = null;
+
+        private static string GetString(PumaLanguage language)
+        {
+            return resourceManager.GetString("Language." + ((short) language).ToString());
+        }
+
+        /// <summary>
+        /// Returns all languages that can be supported (but not actually installed)
+        /// </summary>
+        /// <returns>All langusges</returns>
+        public static IList<string> GetAllLanguages()
+        {
+            PumaLanguage language;
+            List<string> list = new List<string>();
+
+            for (int i = 0; i < maxLanguage; i++)
+            {
+                try
+                {
+                    language = (PumaLanguage) i;
+                    list.Add(GetString(language));
+                }
+                catch
+                {
+                    continue;
+                }
+            }
+
+            return list;
+        }
+        /// <summary>
+        /// Gets all languages that are installed and can be used by current instance of <see cref="PumaPage"/>
+        /// </summary>
+        /// <param name="pumaPage">Instance of <see cref="PumaPage"/></param>
+        /// <returns>List of supported(installed) languages</returns>
+        public static IList<string> GetSupportedLanguages(PumaPage pumaPage)
+        {
+            PumaLanguage language;
+            List<string> list = new List<string>();
+
+            if (lang == null) lang = new Dictionary<string, PumaLanguage>();
+            lang.Clear();
+
+            for (int i = 0; i < maxLanguage; i++)
+            {
+                try
+                {
+                    language = (PumaLanguage)i;
+                    if (!pumaPage.CheckLanguage(language))
+                        throw new Exception("Break");
+                    list.Add(GetString(language));
+                    lang.Add(list[list.Count-1],language);
+                }
+                catch
+                {
+                    continue;
+                }
+            }
+            return list;
+        }
+
+        /// <summary>
+        /// Parses language string and if supported returns valid enumeration instance to be used further
+        /// </summary>
+        /// <param name="pumaPage">Instance of <see cref="PumaPage"/></param>
+        /// <param name="languageString">Language name</param>
+        /// <returns>Valid enumeration</returns>
+        public static PumaLanguage GetSupportedLanguage(PumaPage pumaPage, string languageString)
+        {
+            if (lang == null) GetSupportedLanguages(pumaPage);
+
+            return lang[languageString];
+        }
+    }
+}

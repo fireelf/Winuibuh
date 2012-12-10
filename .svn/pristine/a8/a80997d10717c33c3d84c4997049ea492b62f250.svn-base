@@ -1,0 +1,840 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Puma.Net</name>
+    </assembly>
+    <members>
+        <member name="T:Puma.Net.RecognitionEngineException">
+            <summary>
+            An exception that is thrown if errors occur during recognition engine invokation
+            </summary>
+        </member>
+        <member name="M:Puma.Net.RecognitionEngineException.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Puma.Net.RecognitionEngineException.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="messgae">Error message</param>
+        </member>
+        <member name="M:Puma.Net.RecognitionEngineException.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="messgae">Error message</param>
+        </member>
+        <member name="M:Puma.Net.RecognitionEngineException.#ctor(System.String,System.Exception)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="message">Error message</param>
+            <param name="inner">Inner exception</param>
+        </member>
+        <member name="M:Puma.Net.RecognitionEngineException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="info">Parameter for serialization</param>
+            <param name="context">Parameter for serialization</param>
+        </member>
+        <member name="P:Puma.Net.RecognitionEngineException.ErrorCode">
+            <summary>
+            Error code returned by recognition engine
+            </summary>
+        </member>
+        <member name="T:Puma.Net.Resources.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_0">
+            <summary>
+              Ищет локализованную строку, похожую на English.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_1">
+            <summary>
+              Ищет локализованную строку, похожую на German.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_10">
+            <summary>
+              Ищет локализованную строку, похожую на Croatian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_11">
+            <summary>
+              Ищет локализованную строку, похожую на Polish.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_12">
+            <summary>
+              Ищет локализованную строку, похожую на Danish.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_13">
+            <summary>
+              Ищет локализованную строку, похожую на Portuguese.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_14">
+            <summary>
+              Ищет локализованную строку, похожую на Dutch.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_15">
+            <summary>
+              Ищет локализованную строку, похожую на Digits.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_19">
+            <summary>
+              Ищет локализованную строку, похожую на Czech.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_2">
+            <summary>
+              Ищет локализованную строку, похожую на French.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_20">
+            <summary>
+              Ищет локализованную строку, похожую на Romanian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_21">
+            <summary>
+              Ищет локализованную строку, похожую на Hungarian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_22">
+            <summary>
+              Ищет локализованную строку, похожую на Bulgarian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_23">
+            <summary>
+              Ищет локализованную строку, похожую на Slovenian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_24">
+            <summary>
+              Ищет локализованную строку, похожую на Lettish.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_25">
+            <summary>
+              Ищет локализованную строку, похожую на Lithuanian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_26">
+            <summary>
+              Ищет локализованную строку, похожую на Estonian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_27">
+            <summary>
+              Ищет локализованную строку, похожую на Turkish.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_3">
+            <summary>
+              Ищет локализованную строку, похожую на Russian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_4">
+            <summary>
+              Ищет локализованную строку, похожую на Swedish.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_5">
+            <summary>
+              Ищет локализованную строку, похожую на Spanish.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_6">
+            <summary>
+              Ищет локализованную строку, похожую на Italian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_7">
+            <summary>
+              Ищет локализованную строку, похожую на RussianEnglish.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_8">
+            <summary>
+              Ищет локализованную строку, похожую на Ukrainian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.Language_9">
+            <summary>
+              Ищет локализованную строку, похожую на Serbian.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaFontSettings_ConstructorError">
+            <summary>
+              Ищет локализованную строку, похожую на Parent property can&apos;t be null.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaFontSettings_FontError">
+            <summary>
+              Ищет локализованную строку, похожую на Font name provided is not valid.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaPage_BitmapEmpty">
+            <summary>
+              Ищет локализованную строку, похожую на Bitmap property must not be null.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaPage_DllError">
+            <summary>
+              Ищет локализованную строку, похожую на The library &apos;dibapi.dll&apos; could not be found.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaPage_LangaugeError">
+            <summary>
+              Ищет локализованную строку, похожую на Language specified either not supported or not installed.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaPage_RecognitionError">
+            <summary>
+              Ищет локализованную строку, похожую на Recognition error occured.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaPage_RecognitionErrorCode">
+            <summary>
+              Ищет локализованную строку, похожую на Recognition engine halted with code.
+            </summary>
+        </member>
+        <member name="P:Puma.Net.Resources.Resources.PumaPage_TempFileError">
+            <summary>
+              Ищет локализованную строку, похожую на Could not create temporary file with the name specified.
+            </summary>
+        </member>
+        <member name="T:Puma.Net.IPumaExtension">
+            <summary>
+            Interface to provide extension to <see cref="T:Puma.Net.PumaPage"/> class
+            </summary>
+            <remarks>
+            <para>
+            You may create your own class to provide the <see cref="T:Puma.Net.PumaPage"/> class
+            with the following extra capabilities:
+            <list type="bullet">
+                <item>
+                Extend the supported image formats if .NET <see cref="T:System.Drawing.Bitmap"/> class
+                input formats are not enough (<see cref="M:Puma.Net.IPumaExtension.ImageLoad(System.String)"/> )
+                </item>
+                <item>
+                Preprocess image (<see cref="M:Puma.Net.IPumaExtension.ImagePreprocessing(System.Drawing.Bitmap)"/>) that may be necessary to improve the quality of 
+                the recognition results
+                </item>
+                <item>
+                Process output file (<see cref="M:Puma.Net.IPumaExtension.OutputFileProcessing(System.String)"/>) that may be necessary to 
+                extende the number of supported export formats
+                </item>
+            </list>
+            </para>
+            <para>
+            There's no need to fully implement each method in the extension class. If there's no need
+            in one of the methods its body can be left empty (or return null for <see cref="M:Puma.Net.IPumaExtension.ImageLoad(System.String)"/>) 
+            </para>
+            </remarks>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+        </member>
+        <member name="M:Puma.Net.IPumaExtension.ImageLoad(System.String)">
+            <summary>
+            Image import extension
+            </summary>
+            <remarks>
+            If there's no need in this method return null
+            </remarks>
+            <param name="fileName">The file name to open</param>
+            <returns>The instance of<see cref="T:System.Drawing.Bitmap"/> class</returns>
+        </member>
+        <member name="M:Puma.Net.IPumaExtension.ImagePreprocessing(System.Drawing.Bitmap)">
+            <summary>
+            Preprocess image on recognizing
+            </summary>
+            <remarks>
+            If there's no need in image preprocessing then
+            return null.
+            To avoid the processed bitmap disposal in PumaPage class set
+            Bitmap.Tag property to false.
+            </remarks>
+            <param name="image">The image to be preprocessed</param>
+            <returns>Processed image</returns>
+            <seealso cref="M:Puma.Net.IPumaExtension.ValidateSettings"/>
+        </member>
+        <member name="M:Puma.Net.IPumaExtension.OutputFileProcessing(System.String)">
+            <summary>
+            Postprocess the recognized file
+            </summary>
+            <remarks>
+            <para>
+            This method is called after Puma OCR engine recognizes and stores results
+            to a file.
+            </para>
+            <para>
+            If there's no need in output file post-processing than leave the
+            method body empty.
+            </para>
+            </remarks>
+            <param name="fileName">The file that stores the recognition results</param>
+            <seealso cref="M:Puma.Net.IPumaExtension.ValidateSettings"/>
+        </member>
+        <member name="M:Puma.Net.IPumaExtension.ValidateSettings">
+            <summary>
+            Validatea the parent <see cref="T:Puma.Net.PumaPage"/> settings
+            to fit the extensions' functionality
+            </summary>
+            <remarks>
+            <para>
+            It may be necessary for extension methods to insure that <see cref="T:Puma.Net.PumaPage"/> object
+            is initialized properly. Use <see cref="P:Puma.Net.IPumaExtension.Parent"/> property to check
+            the validity of settings. If settings are not valid throw an exception
+            with the message pointing to the invalid properties of <see cref="T:Puma.Net.PumaPage"/>.
+            </para>
+            <para>
+            The example use case is when <see cref="M:Puma.Net.IPumaExtension.OutputFileProcessing(System.String)"/> method
+            need a output file of <see cref="T:Puma.Net.PumaPage"/> to be of a specific format.
+            </para>
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.IPumaExtension.Parent">
+            <summary>
+            The reference to <see cref="T:Puma.Net.PumaPage"/> instance that agregates
+            extension class
+            </summary>
+            <remarks>
+            The property is populated automaticaly on assigning
+            corresponding property of <see cref="T:Puma.Net.PumaPage"/> instance (<see cref="P:Puma.Net.PumaPage.Extension"/>) to the extension
+            object
+            </remarks>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+        </member>
+        <member name="P:Puma.Net.IPumaExtension.ScaleImage">
+            <summary>
+            Indicates the parent <see cref="T:Puma.Net.PumaPage"/> whether image scaling should take place
+            </summary>
+        </member>
+        <member name="T:Puma.Net.PumaFileFormat">
+            <summary>
+            Represents file format and text encoding used to store
+            recognition results.
+            </summary>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+            <see cref="P:Puma.Net.PumaPage.FileFormat"/>
+        </member>
+        <member name="T:Puma.Net.PumaFontSettings">
+            <summary>
+            Contains the properties of font's to be used in the output file
+            </summary>
+            <remarks>
+            There's no need to instatiate the class since it's automaticaly
+            instatiated by <see cref="T:Puma.Net.PumaPage"/> and kept in <see cref="P:Puma.Net.PumaPage.FontSettings"/>
+            property. Access the instance via this property.
+            </remarks>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+            <seealso cref="P:Puma.Net.PumaPage.FontSettings"/>
+        </member>
+        <member name="M:Puma.Net.PumaFontSettings.#ctor(Puma.Net.PumaPage)">
+            <summary>
+            Constructor. Used within <see cref="T:Puma.Net.PumaPage"/> class
+            </summary>
+            <param name="parent"></param>
+        </member>
+        <member name="P:Puma.Net.PumaFontSettings.CourierName">
+            <summary>
+            The font to be used in output file for courier fonts
+            detected in input image
+            </summary>
+            <remarks>
+            <see cref="T:System.ArgumentException"/> is thrown if the font is not registered in the system
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaFontSettings.SerifName">
+            <summary>
+            The font to be used in output file for serif fonts
+            detected in input image
+            </summary>
+            <remarks>
+            <see cref="T:System.ArgumentException"/> is thrown if the font is not registered in the system
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaFontSettings.SansSerifName">
+            <summary>
+            The font to be used in output file for sans serif fonts
+            detected in input image
+            </summary>
+            <remarks>
+            <see cref="T:System.ArgumentException"/> is thrown if the font is not registered in the system
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaFontSettings.DetectBold">
+            <summary>
+            Detect boldness of charcters and preserve it in output file
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaFontSettings.DetectItalic">
+            <summary>
+            Detect italic characters and preserve italics in output file
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaFontSettings.DetectSize">
+            <summary>
+            Detect fonts of different sizes and preserve the sizes in output file
+            </summary>
+        </member>
+        <member name="T:Puma.Net.PumaLanguage">
+            <summary>
+            The language of text to be recognized
+            </summary>
+            <remarks>
+            Some langauges may not be be delivered or included
+            with the used Puma COM Server. For details see <see cref="P:Puma.Net.PumaPage.Language"/>.
+            </remarks>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+            <seealso cref="P:Puma.Net.PumaPage.Language"/>
+        </member>
+        <member name="T:Puma.Net.NamespaceDoc">
+            <summary>
+            The namespace contains classes encapsulating OCR functionality
+            </summary>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+        </member>
+        <member name="T:Puma.Net.PumaPage">
+            <summary>
+            The master class that encapsulates the entire
+            functionality on text recognition.
+            </summary>
+            <remarks>
+            <para>
+            The class is not thread safe.
+            </para>
+            <para>
+            Initializing the class is a time consuming operation so try to keep
+            a single instance as long as it's necessary and avoid multiple creations 
+            for a single operation. Use <see cref="M:Puma.Net.PumaPage.Dispose"/> method to
+            destroy the instance when it's not needed anymore.
+            </para>
+            </remarks>
+            <example>
+            The following code snippet shows a simple scenario of using 
+            the class to recognize a picture and save the results to a
+            file.
+            <code>
+            // Instantiating the class using constructor that
+            // accepts the image to recognize file name 
+            
+            PumaPage pumaPage = new PumaPage("page001.jpg");
+            
+            using(pumaPage)
+            {
+                // Changing default settings
+                pumaPage.FileFormat = PumaFileFormat.RtfAnsi;
+                pumaPage.EnableSpeller = false;
+                pumaPage.Language = PumaLanguage.English;
+            
+                // Recognizing and saving results to a file
+                pumaPage.RecognizeToFile("page001.rtf");
+            }
+            
+            </code>
+            <para>
+            Note!
+            If running application in Release (with no #DEBUG symbol) configuration with 
+            debugger attached RecognitionEngineExceptions will be thrown
+            when attempting to recognize an image.
+            There's no such error when debuger is not attached.
+            </para>
+            </example>
+            <seealso cref="T:Puma.Net.IPumaExtension"/>
+            <seealso cref="T:Puma.Net.RecognitionEngineException"/>
+        </member>
+        <member name="M:Puma.Net.PumaPage.#ctor">
+            <summary>
+            Default constructor. 
+            </summary>
+        </member>
+        <member name="M:Puma.Net.PumaPage.#ctor(System.Drawing.Bitmap)">
+            <summary>
+            Constructor. Accepts initial value for
+            <see cref="P:Puma.Net.PumaPage.Bitmap"/> property.
+            </summary>
+            <param name="bitmap">
+            Instance of <see cref="T:System.Drawing.Bitmap"/> class
+            with image to recognize
+            </param>
+        </member>
+        <member name="M:Puma.Net.PumaPage.#ctor(System.String)">
+            <summary>
+            Constructor. Instatiates <see cref="P:Puma.Net.PumaPage.Bitmap"/>
+            using file name provided.
+            </summary>
+            <param name="imageFileName">
+            Image of format supported by <see cref="T:System.Drawing.Bitmap"/> class
+            to open for recognition
+            </param>
+        </member>
+        <member name="M:Puma.Net.PumaPage.CheckLanguage(Puma.Net.PumaLanguage)">
+            <summary>
+            Checks the language to be supported
+            </summary>
+            <remarks>
+            You may use this method in order to preliminary detect whether a language is supported
+            by current Puma COM server instead of trying to set <see cref="P:Puma.Net.PumaPage.Language"/> property
+            and catching exception.
+            </remarks>
+            <param name="language">The <see cref="T:Puma.Net.PumaLanguage"/> value to check</param>
+            <returns>Whether the language provided is suppoerted by the current Puma COM server</returns>
+            <seealso cref="P:Puma.Net.PumaPage.Language"/>
+        </member>
+        <member name="M:Puma.Net.PumaPage.RecognizeToFile(System.String)">
+            <summary>
+            Recognizes the image and stores results to a file
+            </summary>
+            <param name="fileName">
+            The output file to store the recognition results
+            </param>
+            <remarks>
+            <para>
+            Using the settings of the PumaPage instance recognizes
+            the image stored in <see cref="P:Puma.Net.PumaPage.Bitmap"/> property
+            and saves it to a file.
+            </para>
+            <para>
+            <see cref="M:Puma.Net.IPumaExtension.ImagePreprocessing(System.Drawing.Bitmap)"/> is called to provide
+            custom image preprocessing. <see cref="!:IPumaExtension.OutpuFileProcessing"/> is called
+            to provide export extensions. <see cref="P:Puma.Net.PumaPage.Extension"/> is set to the instance that provides
+            image preprocessing and output file procesing, if null then no extra pre- and post- preocessing
+            takes place.
+            </para>
+            </remarks>
+            <seealso cref="P:Puma.Net.PumaPage.FileFormat"/>
+            <seealso cref="T:Puma.Net.IPumaExtension"/>
+        </member>
+        <member name="M:Puma.Net.PumaPage.RecognizeToString">
+            <summary>
+            Recognize image and get results in a string value
+            </summary>
+            <remarks>
+            <para>
+            The method can be used to recognize texts
+            and present results in a form of single string.
+            To improve the performance the following features are turned off: Speller (<see cref="P:Puma.Net.PumaPage.EnableSpeller"/>),
+            preserving images and tables, preserving formating (<see cref="P:Puma.Net.PumaPage.PreserveLineBreaks"/>, <see cref="P:Puma.Net.PumaPage.UseTextFormating"/>, <see cref="P:Puma.Net.PumaPage.OneColumnMode"/>)
+            and image preprocessing (<see cref="P:Puma.Net.PumaPage.ImproveDotMatrix"/>, <see cref="P:Puma.Net.PumaPage.ImproveFax100"/>, <see cref="P:Puma.Net.PumaPage.AutoRotateImage"/>).
+            </para>
+            <para>
+            <see cref="M:Puma.Net.IPumaExtension.ImagePreprocessing(System.Drawing.Bitmap)"/> is called to provide
+            custom image preprocessing. <see cref="M:Puma.Net.IPumaExtension.OutputFileProcessing(System.String)"/> is called
+            to provide export extensions. <see cref="P:Puma.Net.PumaPage.Extension"/> is set to the instance that provides
+            image preprocessing and output file procesing, if null then no extra pre- and post- preocessing
+            takes place.
+            </para>
+            </remarks>
+            <returns>The results of recognition</returns>
+            <seealso cref="T:Puma.Net.IPumaExtension"/>
+        </member>
+        <member name="M:Puma.Net.PumaPage.LoadImage(System.String)">
+            <summary>
+            Initialaizes <see cref="P:Puma.Net.PumaPage.Bitmap"/> property loading
+            an image file
+            </summary>
+            <param name="fileName">File to load</param>
+            <remarks>
+            <see cref="M:Puma.Net.IPumaExtension.ImageLoad(System.String)"/> is called if
+            <see cref="P:Puma.Net.PumaPage.Extension"/> property is not null to provide extensive
+            image import capabilities
+            </remarks>
+            <seealso cref="T:Puma.Net.IPumaExtension"/>
+        </member>
+        <member name="M:Puma.Net.PumaPage.Dispose">
+            <summary>
+            Use to destroy the instance and free resources used
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.Language">
+            <summary>
+            Language of the text to be recognized.
+            </summary>
+            <remarks>
+            For the full list of languages supported see
+            <see cref="T:Puma.Net.PumaLanguage"/> enumeration members.
+            Note! It's possible the language requested can be not provided with Puma COM server. In such a case an <see cref="T:System.ArgumentException"/> will be thrown.
+             </remarks>
+            <seealso cref="M:Puma.Net.PumaPage.CheckLanguage(Puma.Net.PumaLanguage)"/>
+        </member>
+        <member name="P:Puma.Net.PumaPage.FileFormat">
+            <summary>
+            Output file format and encoding to use
+            </summary>
+            <remarks>
+            For the full list of suppoerted output formats see
+            <see cref="T:Puma.Net.PumaFileFormat"/> enumeration members.
+            Text encoding is also determinded by this property (in combination with format).
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaPage.RecognizePictures">
+            <summary>
+            Whether to outline pictures and put them in recognition results
+            </summary>
+            <remarks>
+            Not all output file formats suppurt embeding pictures
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaPage.RecognizeTables">
+            <summary>
+            Whether to outline tables and put them in recognition results
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.UseTextFormating">
+            <summary>
+            Whether to outline text formatting and preserve it in output
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.EnableSpeller">
+            <summary>
+            Whether to enable speller to improve recognition results
+            </summary>
+            <remarks>
+            Speller may deacrease the overal recognition quality in some
+            cases (lots of special terms etc.).
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaPage.PreserveLineBreaks">
+            <summary>
+            Whether to preserver line breaks
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.OneColumnMode">
+            <summary>
+            Whether to recognize text and output it in one column
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.AutoRotateImage">
+            <summary>
+            Whether to use image improvement for skewed scanned documents
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.UnrecognizedChar">
+            <summary>
+            The character to insert instead of unrecognized chars 
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.ImproveDotMatrix">
+            <summary>
+            Image enhancement for documents that where printed
+            on matrix printers
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.ImproveFax100">
+            <summary>
+            Image enhancement for documents that where printed
+            on Fax machines
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.FontSettings">
+            <summary>
+            Font settings used to produce the output
+            </summary>
+            <seealso cref="T:Puma.Net.PumaFontSettings"/>
+        </member>
+        <member name="P:Puma.Net.PumaPage.TempFileName">
+            <summary>
+            The file used to store temporary data. 
+            </summary>
+            <remarks>
+            The file is used internaly by <see cref="M:Puma.Net.PumaPage.RecognizeToString"/> method to store intermediate data.
+            Value is initialized during instance creation and points to a file
+            in Windows TEMP directory
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaPage.Extension">
+            <summary>
+            Reference to an instance that extends basic functionality
+            of PumaPage class
+            </summary>
+            <remarks>
+            For details refer to <see cref="T:Puma.Net.IPumaExtension"/> interface
+            description.
+            </remarks>
+            <seealso cref="T:Puma.Net.IPumaExtension"/>
+        </member>
+        <member name="P:Puma.Net.PumaPage.Bitmap">
+            <summary>
+            The bitmap that stores the text to recognize
+            </summary>
+        </member>
+        <member name="P:Puma.Net.PumaPage.ScaleImage">
+            <summary>
+            Scale (percents) of the image being recognized
+            </summary>
+            <remarks>
+            <para>
+            Default value 100%.
+            </para>
+            <para>
+            Before the image stored in <see cref="P:Puma.Net.PumaPage.Bitmap"/> property
+            is processed by Puma COM server it is being scaled by percents
+            determined by the property. 
+            </para>
+            <para>
+            The image is scaled only in the case when there's no instance of
+            <see cref="T:Puma.Net.IPumaExtension"/> stored in <see cref="P:Puma.Net.PumaPage.Extension"/> property
+            or it's property <see cref="P:Puma.Net.IPumaExtension.ScaleImage"/> is set to false
+            </para>
+            <para>
+            This setting may be useful while recognizing small images. Puma recognition
+            engine may fault or give bad results in case of images with small characters.
+            It's recomended that characters in the image to be not less than 50 pix high. 
+            </para>
+            </remarks>
+        </member>
+        <member name="P:Puma.Net.PumaPage.CodePage">
+            <summary>
+            Code page to use for recognized string
+            </summary>
+            <remarks>
+            <para>
+            Encoding.GetEncoding(codePage) is used to set the encoding for the string
+            produced by the method <see cref="M:Puma.Net.PumaPage.RecognizeToString"/>
+            </para>
+            <para>
+            Default value is 1251.
+            </para>
+            </remarks>
+        </member>
+        <member name="E:Puma.Net.PumaPage.RecognitionProgress">
+            <summary>
+            Event is raised on recognition progress changing
+            </summary>
+            <remarks>
+            <para>
+            The event can be used to display recognition progress in percents.
+            </para>
+            <para>
+            In DEBUG mode if debugger is attached the event is not active. In RELEASE mode
+            if debugger is attached the behaviour of program may be unpredictable. 
+            </para>
+            </remarks>
+            <seealso cref="T:Puma.Net.RecognitionProgressEventHandler"/>
+        </member>
+        <member name="T:Puma.Net.RecognitionEventArgs">
+            <summary>
+            Event arguments for <see cref="T:Puma.Net.RecognitionProgressEventHandler"/>
+            </summary>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+            <seealso cref="E:Puma.Net.PumaPage.RecognitionProgress"/>
+            <see cref="T:Puma.Net.RecognitionProgressEventHandler"/>
+        </member>
+        <member name="M:Puma.Net.RecognitionEventArgs.#ctor(System.Int32,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="progressPercents">Percents complete</param>
+            <param name="stageName">The name of recognition stage. Not implemented</param>
+        </member>
+        <member name="P:Puma.Net.RecognitionEventArgs.ProgressPercents">
+            <summary>
+            Percents complete
+            </summary>
+        </member>
+        <member name="P:Puma.Net.RecognitionEventArgs.ProgressStageName">
+            <summary>
+            The name of recognition stage. Not implemented
+            </summary>
+        </member>
+        <member name="T:Puma.Net.RecognitionProgressEventHandler">
+            <summary>
+            The delegate to maintain <see cref="E:Puma.Net.PumaPage.RecognitionProgress"/>
+            </summary>
+            <param name="sender">Event initiator</param>
+            <param name="e">Event arguments</param>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+            <seealso cref="E:Puma.Net.PumaPage.RecognitionProgress"/>
+            <seealso cref="T:Puma.Net.RecognitionEventArgs"/>
+        </member>
+        <member name="T:Puma.Net.Utilities.NamespaceDoc">
+            <summary>
+            The namespace contains classes that may be useful while pupulating GUI with lists
+            like Languages, Fonts, File Formats.
+            </summary>
+            <seealso cref="T:Puma.Net.PumaPage"/>
+        </member>
+        <member name="T:Puma.Net.Utilities.FileFormatStrings">
+            <summary>
+            Provides helper functionality to work with string representation of file formats
+            </summary>
+        </member>
+        <member name="M:Puma.Net.Utilities.FileFormatStrings.GetAllFormats">
+            <summary>
+            Gets names of supported file formats
+            </summary>
+            <returns>
+            File formats' names
+            </returns>
+        </member>
+        <member name="M:Puma.Net.Utilities.FileFormatStrings.GetFormat(System.String)">
+            <summary>
+            Parses format name and returns enumeration
+            </summary>
+            <param name="formatString">Format name</param>
+            <returns>Enumeration holding valid format</returns>
+        </member>
+        <member name="T:Puma.Net.Utilities.FontStrings">
+            <summary>
+            Gets system registered fonts
+            </summary>
+        </member>
+        <member name="M:Puma.Net.Utilities.FontStrings.GetRegisteredFonts">
+            <summary>
+            Gets system registered fonts
+            </summary>
+            <returns>
+            List of registered fonts' names
+            </returns>
+        </member>
+        <member name="T:Puma.Net.Utilities.LanguageStrings">
+            <summary>
+            Helper class to work with languages collections
+            </summary>
+        </member>
+        <member name="M:Puma.Net.Utilities.LanguageStrings.GetAllLanguages">
+            <summary>
+            Returns all languages that can be supported (but not actually installed)
+            </summary>
+            <returns>All langusges</returns>
+        </member>
+        <member name="M:Puma.Net.Utilities.LanguageStrings.GetSupportedLanguages(Puma.Net.PumaPage)">
+            <summary>
+            Gets all languages that are installed and can be used by current instance of <see cref="T:Puma.Net.PumaPage"/>
+            </summary>
+            <param name="pumaPage">Instance of <see cref="T:Puma.Net.PumaPage"/></param>
+            <returns>List of supported(installed) languages</returns>
+        </member>
+        <member name="M:Puma.Net.Utilities.LanguageStrings.GetSupportedLanguage(Puma.Net.PumaPage,System.String)">
+            <summary>
+            Parses language string and if supported returns valid enumeration instance to be used further
+            </summary>
+            <param name="pumaPage">Instance of <see cref="T:Puma.Net.PumaPage"/></param>
+            <param name="languageString">Language name</param>
+            <returns>Valid enumeration</returns>
+        </member>
+    </members>
+</doc>

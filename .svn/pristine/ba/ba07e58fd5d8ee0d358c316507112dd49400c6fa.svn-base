@@ -1,0 +1,55 @@
+﻿using System;
+using System.Runtime.Serialization;
+
+namespace Puma.Net
+{
+    /// <summary>
+    /// An exception that is thrown if errors occur during recognition engine invokation
+    /// </summary>
+    [Serializable]
+    public class RecognitionEngineException : Exception
+    {
+        /// <summary>
+        /// Default constructor
+        /// </summary>
+        public RecognitionEngineException(){}
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="messgae">Error message</param>
+        public RecognitionEngineException(string messgae) : base(messgae){}
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="messgae">Error message</param>
+        public RecognitionEngineException(string messgae, int errorCode) : base(messgae) {
+            this.errorCode = errorCode; }
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="message">Error message</param>
+        /// <param name="inner">Inner exception</param>
+        public RecognitionEngineException(string message, Exception inner) : base(message, inner){}
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="info">Parameter for serialization</param>
+        /// <param name="context">Parameter for serialization</param>
+        public RecognitionEngineException(SerializationInfo info, StreamingContext context) : base(info, context) { }
+
+        private int errorCode = 0;
+
+        /// <summary>
+        /// Error code returned by recognition engine
+        /// </summary>
+        public int ErrorCode
+        {
+            get { return errorCode; }
+            set { errorCode = value; }
+        }
+    }
+}
