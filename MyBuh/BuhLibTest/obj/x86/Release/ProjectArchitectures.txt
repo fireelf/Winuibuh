@@ -1,0 +1,2 @@
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\BuhLib.csproj;x86
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLibTest\BuhLibTest.csproj;x86

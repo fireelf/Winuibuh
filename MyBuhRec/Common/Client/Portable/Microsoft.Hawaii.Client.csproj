@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3927AC8C-4BF9-4695-932F-44B38715FC8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Hawaii.Client</RootNamespace>
+    <AssemblyName>Microsoft.Hawaii.Client</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Microsoft.Hawaii.Client.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Microsoft.Hawaii.Client.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\..\..\..\common\McrcStrongNameKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ClientLibraryBase\AdmAccessToken.cs">
+      <Link>AdmAccessToken.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\AdmAuthClientIdentity.cs">
+      <Link>AdmAuthClientIdentity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\AdmTokenService.cs">
+      <Link>AdmTokenService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\AdmTokenServiceRequestState.cs">
+      <Link>AdmTokenServiceRequestState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\ClientIdentity.cs">
+      <Link>ClientIdentity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\ClientLibraryUtils.cs">
+      <Link>ClientLibraryUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\GuidAuthClientIdentity.cs">
+      <Link>GuidAuthClientIdentity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\HttpMethod.cs">
+      <Link>HttpMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\LoggedException.cs">
+      <Link>LoggedException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\NamespaceDoc.cs">
+      <Link>NamespaceDoc.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\ServiceAgent.cs">
+      <Link>ServiceAgent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\ServiceFault.cs">
+      <Link>ServiceFault.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\ServiceResult.cs">
+      <Link>ServiceResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\ServiceUri.cs">
+      <Link>ServiceUri.cs</Link>
+    </Compile>
+    <Compile Include="..\..\ClientLibraryBase\Status.cs">
+      <Link>Status.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Version.cs">
+      <Link>Properties\Version.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1 @@
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\MyBuh\AppPackages\MyBuh_1.0.0.0_AnyCPU_Debug_Test\MyBuh_1.0.0.0_AnyCPU_Debug.appx

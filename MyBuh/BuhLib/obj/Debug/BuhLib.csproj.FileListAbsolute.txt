@@ -1,0 +1,14 @@
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\bin\Debug\BuhLib.dll
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\bin\Debug\BuhLib.pdb
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\bin\Debug\BuhLib.pri
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\BuhLib.dll
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\BuhLib.pdb
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\priconfig.xml.intermediate
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\layout.resfiles.intermediate
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\resources.resfiles.intermediate
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\pri.resfiles.intermediate
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\priconfig.xml
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\layout.resfiles
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\resources.resfiles
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\pri.resfiles
+C:\Program Files (x86)\Jenkins\jobs\HomeBuh\workspace\MyBuh\BuhLib\obj\Debug\LanguageQualifiers.txt

@@ -1,0 +1,2 @@
+C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\BuhLib\BuhLib.csproj;neutral
+C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\MyBuh.csproj;neutral
