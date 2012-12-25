@@ -38,6 +38,7 @@ namespace MyBuh
             _Tiles.Add(new SingleTile("Бюджет", @"/Assets/86ce30d4-fb1b-40ee-bd9e-83043b91b0fd.jpg"));
             _Tiles.Add(new SingleTile("Баланс", @"/Assets/18.jpg"));
             _Tiles.Add(new SingleTile("Информация", @"/Assets/1348047057_kurs_valyut.jpg"));
+            _Tiles.Add(new SingleTile("Категории", @"/Assets/booksclock.jpg"));            
 
             gvMain.ItemsSource = _Tiles;
 
@@ -133,7 +134,7 @@ namespace MyBuh
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            Logic.AddDeposit();
+            
             
         }
 

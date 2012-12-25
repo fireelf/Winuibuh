@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-UPJ9E7VRG3F</Machine>
+    <WindowsUser>sirius</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\Microsoft.Hawaii.Ocr.SampleAppWinRT.exe">
+      <PackagePath>Microsoft.Hawaii.Ocr.SampleAppWinRT.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\Microsoft.Hawaii.Ocr.SampleAppWinRT.pdb">
+      <PackagePath>Microsoft.Hawaii.Ocr.SampleAppWinRT.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\bin\Debug\Microsoft.Hawaii.Client.pdb">
+      <PackagePath>Microsoft.Hawaii.Client.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\client\portable\bin\Debug\Microsoft.Hawaii.Ocr.Client.pdb">
+      <PackagePath>Microsoft.Hawaii.Ocr.Client.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\bin\Debug\Microsoft.Hawaii.Client.dll">
+      <PackagePath>Microsoft.Hawaii.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\client\portable\bin\Debug\Microsoft.Hawaii.Ocr.Client.dll">
+      <PackagePath>Microsoft.Hawaii.Ocr.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\bin\Debug\Microsoft.Hawaii.Client.xml">
+      <PackagePath>Microsoft.Hawaii.Client.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\client\portable\bin\Debug\Microsoft.Hawaii.Ocr.Client.xml">
+      <PackagePath>Microsoft.Hawaii.Ocr.Client.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Images\OcrDetailsMode.png">
+      <PackagePath>Images\OcrDetailsMode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Images\OcrSimpleMode.png">
+      <PackagePath>Images\OcrSimpleMode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Images\OpenImage.png">
+      <PackagePath>Images\OpenImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Images\TakePhoto.png">
+      <PackagePath>Images\TakePhoto.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Images\helloworld.jpg">
+      <PackagePath>Images\helloworld.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\Controls\PhotoArea.xaml">
+      <PackagePath>Controls\PhotoArea.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\Controls\PhotoSelector.xaml">
+      <PackagePath>Controls\PhotoSelector.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\Controls\TextArea.xaml">
+      <PackagePath>Controls\TextArea.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

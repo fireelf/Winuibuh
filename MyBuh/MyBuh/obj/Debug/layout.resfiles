@@ -2,7 +2,11 @@ Assets\1348047057_kurs_valyut.jpg
 Assets\18.jpg
 Assets\666777762.jpg
 Assets\86ce30d4-fb1b-40ee-bd9e-83043b91b0fd.jpg
+Assets\abstract-silk.jpg
+Assets\booksclock.jpg
 Assets\Logo.png
+Assets\SimpleTile.png
+Assets\SimpleTile2.png
 Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
@@ -11,5 +15,7 @@ App.xaml
 Balans.xaml
 Bills.xaml
 Budget.xaml
+Categories.xaml
 Common\StandardStyles.xaml
 MainPage.xaml
+Common\ReadMe.txt

@@ -37,10 +37,10 @@
                 <StackPanel Grid.Column="1" HorizontalAlignment="Left" Orientation="Vertical"/>
             </Grid>
         </AppBar>
-        <GridView HorizontalAlignment="Left" Margin="123,255,0,0" VerticalAlignment="Top" Width="1140" Height="304" Name="gvMain">
+        <GridView HorizontalAlignment="Left" Margin="71,237,0,0" VerticalAlignment="Top" Width="1250" Height="433" Name="gvMain">
             <GridView.ItemTemplate>
                 <DataTemplate>
-                    <Grid HorizontalAlignment="Left" Width="240" Height="240">
+                    <Grid HorizontalAlignment="Left" Width="270" Height="270">
                         <Border Background="Transparent">                         
                             
                         </Border>
@@ -59,7 +59,7 @@
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>
-        <TextBlock FontSize="48" Text="Домашняя Бухгалтерия" HorizontalAlignment="Left" Margin="128,102,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontFamily="Segoe UI Semibold"/>
+        <TextBlock FontSize="48" Text="Домашняя Бухгалтерия" HorizontalAlignment="Left" Margin="71,100,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontFamily="Segoe UI Semibold" Foreground="Black"/>
        
 
 

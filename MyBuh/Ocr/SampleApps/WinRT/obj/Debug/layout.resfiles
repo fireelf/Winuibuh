@@ -1,0 +1,15 @@
+Assets\BadgeLogo.png
+Assets\Logo.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+App.xaml
+Common\StandardStyles.xaml
+Controls\PhotoArea.xaml
+Controls\PhotoSelector.xaml
+Controls\TextArea.xaml
+MainPage.xaml
+Images\helloworld.jpg
+Images\OcrDetailsMode.png
+Images\OcrSimpleMode.png
+Images\OpenImage.png
+Images\TakePhoto.png

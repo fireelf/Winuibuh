@@ -1,0 +1,2 @@
+C:\Users\orlov_000\Desktop\groupdev\MyBuh\BuhLib\BuhLib.csproj;x86
+C:\Users\orlov_000\Desktop\groupdev\MyBuh\MyBuh\MyBuh.csproj;x86

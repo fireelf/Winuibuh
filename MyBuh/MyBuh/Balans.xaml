@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <Grid Margin="0,0,0,663" RenderTransformOrigin="0.619,0.486">
+        <Grid Margin="0,0,0,663" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="450*"/>
                 <ColumnDefinition Width="233*"/>
@@ -39,53 +39,76 @@
                     <ColumnDefinition Width="23*"/>
                     <ColumnDefinition Width="326*"/>
                 </Grid.ColumnDefinitions>
-                <TextBox Name="SummTxt" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top"  Height="31"   Width="220" Grid.Column="1" Margin="0,180,0,0"/>
-                <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="0,140,0,0" TextWrapping="Wrap" Text="Сумма" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI"/>
-                <TextBlock FontSize="18" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Дата" VerticalAlignment="Top" Margin="0,40,0,0" FontFamily="Segoe UI"/>
-                <TextBlock FontSize="18" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Категория" VerticalAlignment="Top" Margin="0,240,0,0" FontFamily="Segoe UI"/>
-                <TextBox Name="dtxt1" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="62" Height="31" Grid.Column="1" Margin="0,80,0,0"/>
-                <TextBox Name="dtxt2"  HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="62" Height="31" Grid.Column="1" Margin="90,80,0,0"/>
-                <TextBox Name="dtxt3" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="102" Height="31" Grid.Column="1" Margin="180,80,0,0"/>
-                <Button Grid.Column="1" HorizontalAlignment="Left" Margin="216,532,0,0" VerticalAlignment="Top"
-                        Style="{StaticResource YesAppBarButtonStyle }" AutomationProperties.Name="" Height="66" Click="Button_Click_2"/>
-                <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="0,286,0,0" VerticalAlignment="Top" Width="220"/>
-                <TextBlock FontSize="18" Grid.Column="1" HorizontalAlignment="Left" Margin="0,340,0,0" TextWrapping="Wrap" Text="Комментарий" VerticalAlignment="Top"/>
-                <TextBox Name="Commenttxt" Grid.Column="1" HorizontalAlignment="Left" Margin="0,380,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="119" Width="220"/>
-                <TextBlock FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="75,85,0,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top"/>
-                <TextBlock FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="165,85,0,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top"/>
+                <ComboBox Name="AccountCmbBx" HorizontalAlignment="Left" Grid.Column="1" Width="220"  VerticalAlignment="Top" Margin="0,20,0,0">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <TextBox Name="SummTxt" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top"  Height="31"   Width="220" Grid.Column="1" Margin="0,213,0,0"/>
+                <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="0,173,0,0" TextWrapping="Wrap" Text="Сумма" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI"/>
+                <TextBlock FontSize="18" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Дата" VerticalAlignment="Top" Margin="0,82,0,0" FontFamily="Segoe UI"/>
+                <TextBlock FontSize="18" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Категория" VerticalAlignment="Top" Margin="0,262,0,0" FontFamily="Segoe UI"/>
+                <TextBox Name="dtxt1" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="62" Height="31" Grid.Column="1" Margin="0,122,0,0"/>
+                <TextBox Name="dtxt2"  HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="62" Height="31" Grid.Column="1" Margin="90,122,0,0"/>
+                <TextBox Name="dtxt3" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="102" Height="31" Grid.Column="1" Margin="180,122,0,0"/>
+                <Button Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Name="CommitButton"
+                        Style="{StaticResource YesAppBarButtonStyle }" AutomationProperties.Name="Принять"  Click="Button_Click_2"/>
+                <Button Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Name="SaveButton" Visibility="Collapsed"
+                        Style="{StaticResource SaveAppBarButtonStyle }" AutomationProperties.Name="Сохранить"  Click="SaveButton_Click_1"/>
+                <Button Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,70,0" Visibility="Collapsed" Name="DeleteButton"
+                        Style="{StaticResource DeleteAppBarButtonStyle }" AutomationProperties.Name="Удалить"  Click="DeleteButton_Click_1"/>
+                <Button Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" 
+                        Style="{StaticResource AddAppBarButtonStyle }" AutomationProperties.Name="Добавить"  Click="Button_Click_3"/>
+                <ComboBox Name="CatCmbBx" Grid.Column="1" HorizontalAlignment="Left" Margin="0,308,0,0" VerticalAlignment="Top" Width="220">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <TextBlock FontSize="18" Grid.Column="1" HorizontalAlignment="Left" Margin="0,359,0,0" TextWrapping="Wrap" Text="Комментарий" VerticalAlignment="Top"/>
+                <TextBox Name="Commenttxt" Grid.Column="1" HorizontalAlignment="Left" Margin="0,399,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="104" Width="220"/>
+                <TextBlock FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="75,125,0,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top"/>
+                <TextBlock FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="165,125,0,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top"/>
 
 
             </Grid>
-            <Grid  Grid.Column="1" Grid.Row="0" Background="LightBlue">
+            <Grid  Grid.Column="1" Grid.Row="0" Background="LightBlue" Height="36" VerticalAlignment="Bottom">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="126*" />
+                    <ColumnDefinition Width="171*" />
+                    <ColumnDefinition Width="148*" />
+                    <ColumnDefinition Width="149*" />
+                    <ColumnDefinition Width="148*" />
                 </Grid.ColumnDefinitions>
-                <TextBlock Text="Дата" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Segoe UI"/>
-                <TextBlock Text="Комментарий" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" FontFamily="Segoe UI" />
-                <TextBlock Text="Счет" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" FontFamily="Segoe UI" />
-                <TextBlock Text="Сумма" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3" FontFamily="Segoe UI" />
+                <TextBlock Text="Дата" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Segoe UI" Height="21" Margin="55,8,37,7" Width="34"/>
+                <TextBlock Text="Комментарий" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" FontFamily="Segoe UI" Height="21" Margin="44,8,26,7" Width="101"  />
+                <TextBlock Text="Категория" FontSize="16"  VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" FontFamily="Segoe UI" Height="21" Margin="37,8,37,7" Width="74"   />
+                <TextBlock Text="Счет" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3" FontFamily="Segoe UI" Height="21" Margin="60,8,55,7" Width="34" />
+                <TextBlock Text="Сумма" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="4" FontFamily="Segoe UI" Height="21" Margin="51,8,49,7" Width="48" />
 
 
             </Grid>
-            <ListView Grid.Column="1" Grid.Row="1" Name="listview">
+            <ListView Grid.Column="1" Grid.Row="1" Name="listview" Grid.ColumnSpan="2"  Grid.RowSpan="2" SelectionChanged="listview_SelectionChanged">
                 <ListView.ItemTemplate>
                     
                     <DataTemplate>
                         
                         <Grid Width="750">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                                <ColumnDefinition/>
-                                <ColumnDefinition/>
-                                <ColumnDefinition/>
+                                <ColumnDefinition Width="126*" />
+                                <ColumnDefinition Width="171*" />
+                                <ColumnDefinition Width="148*" />
+                                <ColumnDefinition Width="149*" />
+                                <ColumnDefinition Width="148*" />
                             </Grid.ColumnDefinitions>                        
                             <TextBlock Name="txt1" Grid.Column="0" Text="{Binding Date}" HorizontalAlignment="Center"/>
                             <TextBlock  Name="txt2" Grid.Column="1" Text="{Binding Comment}" HorizontalAlignment="Center"/>
-                            <TextBlock  Name="txt3" Grid.Column="2" Text="{Binding Account}" HorizontalAlignment="Center"/>
-                            <TextBlock  Name="txt4" Grid.Column="3" Text="{Binding Summ}" HorizontalAlignment="Center"/>
+                            <TextBlock  Name="txt5" Grid.Column="2" Text="{Binding CatName}" HorizontalAlignment="Center"/>
+                            <TextBlock  Name="txt3" Grid.Column="3" Text="{Binding AccName}" HorizontalAlignment="Center"/>
+                            <TextBlock  Name="txt4" Grid.Column="4" Text="{Binding Summ}" HorizontalAlignment="{Binding Alignment}"/>
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>

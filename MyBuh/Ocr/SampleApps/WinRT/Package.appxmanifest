@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="aee051ea-a0f7-447c-a686-2bd912035db6" Publisher="CN=Microsoft Research" Version="2.1.0.0" />
+  <Properties>
+    <DisplayName>Hawaii WinRT OCR Sample</DisplayName>
+    <PublisherDisplayName>Microsoft Research</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Microsoft.Hawaii.Ocr.SampleAppWinRT.App">
+      <VisualElements DisplayName="Project  Hawaii Ocr WinRT Sample" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Project  Hawaii Ocr WinRT Sample" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" ShortName="Hawaii OCR" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="picturesLibrary" />
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+</Package>

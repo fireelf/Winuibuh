@@ -21,19 +21,71 @@
                 
             </StackPanel>
         </Grid>
-        <AppBar>
-            <Grid Margin="0,0,0,650">
+        <AppBar Margin="10,0,-10,0" >
+            <Grid Margin="0,0,0,650" Background="LightBlue">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="121*"/>
                     <ColumnDefinition Width="120*"/>
                     <ColumnDefinition Width="114*"/>
                     <ColumnDefinition Width="318*"/>
                 </Grid.ColumnDefinitions>
-                    <TextBlock  FontSize="28" Text="Неделя" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock FontSize="28" Text="Месяц" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock FontSize="28" Text="Год" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-              
+                <Button FontSize="28" Content="Неделя" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  BorderBrush="Transparent" Background="LightBlue" Click="OpenWeekBudget" />
+                <Button FontSize="28" Content="Месяц" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  BorderBrush="Transparent" Background="LightBlue" Click="OpenMonthBudget"/>
+                <Button FontSize="28" Content="Год" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" BorderBrush="Transparent" Background="LightBlue" Click="OpenYearBudget" />              
+                
             </Grid>
         </AppBar>
+        <TextBlock Name="BudgetTypeTxtbx" HorizontalAlignment="Left" Margin="124,155,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="28"/>
+        <Grid Margin="0,189,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="41*"/>
+                <RowDefinition Height="472*"/>
+                <RowDefinition Height="66*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="62*"/>
+                <ColumnDefinition Width="360*"/>
+                <ColumnDefinition Width="25*"/>
+                <ColumnDefinition Width="196*"/>
+                <ColumnDefinition Width="40*"/>
+            </Grid.ColumnDefinitions>
+            <ListView Grid.Column="1" Grid.Row="1" Name="ListViewBudgets" SelectionChanged="ListViewBudgets_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="500">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock HorizontalAlignment="Center" Grid.Column="0" Text="{Binding Name}" FontSize="20"/>
+                            <TextBlock HorizontalAlignment="Right" Grid.Column="1" Text="{Binding Limit}" FontSize="20"/>
+                            <TextBlock HorizontalAlignment="Right" Grid.Column="2" Text="{Binding CategoryName}" FontSize="20"/>                            
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid Grid.Column="3" Grid.Row="1" Background="LightBlue">
+                <Button Style="{StaticResource AddAppBarButtonStyle}" AutomationProperties.Name="Добавить" Click="Button_Click_3"
+                        HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                <TextBlock Name="NameTxt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,50,0,0" Text="Название" FontSize="22"/>
+                <TextBox Name="NameTxtBx" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,90,0,0" Height="40" Width="240" />
+                <TextBlock Name="LimitTxt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,150,0,0" Text="Лимит" FontSize="22"/>
+                <TextBox Name="LimitTxtBx" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,190,0,0" Height="40" Width="240" />
+                <TextBlock Name="CategoryTxt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,250,0,0" Text="Категория" FontSize="22"/>
+                <ComboBox Name="CategoryCmbBx" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,290,0,0" Width="240" Height="40">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Button Name="AddButton" Style="{StaticResource YesAppBarButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Bottom" AutomationProperties.Name="Добавить" Click="Button_Click_AddBudget" Visibility="Visible"/>
+                <Button Name="SaveButton" Style="{StaticResource SaveAppBarButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Bottom" AutomationProperties.Name="Сохранить" Click="Button_Click_2" Visibility="Collapsed"/>
+                <TextBlock Name="StatusTxt" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Text="" Margin="20,0,0,20" />
+                <Button Style="{StaticResource DeleteAppBarButtonStyle}" Name="DeleteButton" Click="DeleteButton_Click_1" VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                            AutomationProperties.Name="Удалить" Margin="0,0,70,0" Visibility="Collapsed"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>

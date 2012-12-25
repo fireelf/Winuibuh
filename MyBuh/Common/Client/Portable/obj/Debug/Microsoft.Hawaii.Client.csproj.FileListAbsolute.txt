@@ -1,0 +1,15 @@
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\bin\Debug\Microsoft.Hawaii.Client.XML
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\bin\Debug\Microsoft.Hawaii.Client.dll
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\bin\Debug\Microsoft.Hawaii.Client.pdb
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\bin\Debug\Microsoft.Hawaii.Client.pri
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\Microsoft.Hawaii.Client.dll
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\Microsoft.Hawaii.Client.pdb
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\priconfig.xml.intermediate
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\layout.resfiles.intermediate
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\resources.resfiles.intermediate
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\pri.resfiles.intermediate
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\priconfig.xml
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\layout.resfiles
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\resources.resfiles
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\pri.resfiles
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\obj\Debug\LanguageQualifiers.txt

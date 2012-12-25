@@ -1,0 +1,4 @@
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\Microsoft.Hawaii.Client.csproj;neutral
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\common\client\portable\Microsoft.Hawaii.Client.csproj;neutral
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\client\portable\Microsoft.Hawaii.Ocr.Client.csproj;neutral
+C:\Users\sirius\Documents\Microsoft Research\Project Hawaii SDK 2.1 for Windows 8\Source\Ocr\sampleapps\WinRT\Microsoft.Hawaii.Ocr.SampleAppWinRT.csproj;neutral

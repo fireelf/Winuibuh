@@ -18,8 +18,24 @@
                 <TextBlock Text="Обработка чеков" FontSize="42" VerticalAlignment="Center"/>
             </StackPanel>
             <StackPanel Grid.Column="1" HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Center" Margin="292,11,0,10" Height="84" >
-                <Button Style="{StaticResource AddAppBarButtonStyle}" Name="Добавить"/>
+                <Button Style="{StaticResource AddAppBarButtonStyle}" Name="Добавить" Click="Добавить_Click" Height="84" VerticalAlignment="Bottom"/>
             </StackPanel>
         </Grid>
+        <Image x:Name="imgBill" HorizontalAlignment="Left" Height="658" VerticalAlignment="Top" Width="704" Margin="10,110,0,0" Stretch="None"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Наименование:" VerticalAlignment="Bottom" Margin="736,0,0,631" FontSize="20"/>
+        <TextBox x:Name="tbxName" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="736,142,0,0" Width="461" GotFocus="tbxName_GotFocus"/>
+        <Button x:Name="btnLeaveName" Content="Очистить" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1202,140,0,0" Click="btnLeaveName_Click"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Количество:" VerticalAlignment="Bottom" Margin="736,0,0,559" FontSize="20"/>
+        <Button x:Name="btnLeaveCount" Content="Очистить" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1202,212,0,0" Click="btnLeaveCount_Click"/>
+        <TextBox x:Name="tbxCount" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="736,214,0,0" Width="461" GotFocus="tbxCount_GotFocus"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Цена:" VerticalAlignment="Bottom" Margin="736,0,0,483" FontSize="20"/>
+        <Button x:Name="btnLeavePrice" Content="Очистить" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1202,288,0,0" Click="btnLeavePrice_Click"/>
+        <TextBox x:Name="tbxPrice" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="736,290,0,0" Width="461" TextChanged="tbxPrice_TextChanged" GotFocus="tbxPrice_GotFocus"/>
+        <GridView x:Name="gvRes" HorizontalAlignment="Left" Margin="736,376,0,0" VerticalAlignment="Top" Width="577" Height="278"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Внесено" VerticalAlignment="Bottom" Margin="736,0,0,392" FontSize="20"/>
+        <Button x:Name="btnDeleteSelect" Content="Удалить выделенный" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1040,659,0,0" Width="291"/>
+        <Button x:Name="btnDeleteLast" Content="Удалить последний" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="736,659,0,0" Width="291"/>
+        <Button x:Name="btnComplete" Content="Завершить" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1119,698,0,0" Height="60" Width="237"/>
+        <Button x:Name="btnLeavePrice_Copy" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1150,342,0,0" Width="147" RenderTransformOrigin="0.5,0.5" Click="btnLeavePrice_Copy_Click"/>
     </Grid>
 </Page>

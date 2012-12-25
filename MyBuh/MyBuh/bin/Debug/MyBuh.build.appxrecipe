@@ -1,80 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WIN-UPJ9E7VRG3F</Machine>
-    <WindowsUser>sirius</WindowsUser>
+    <Machine>MADEINSPACE-PC</Machine>
+    <WindowsUser>orlov_000</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\MyBuh.exe">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\MyBuh.exe">
       <PackagePath>MyBuh.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\MyBuh.pdb">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\MyBuh.pdb">
       <PackagePath>MyBuh.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\bin\Debug\BuhLib.pdb">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\BuhLib\bin\Debug\BuhLib.pdb">
       <PackagePath>BuhLib.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\BuhLib\bin\Debug\BuhLib.dll">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\BuhLib\bin\Debug\BuhLib.dll">
       <PackagePath>BuhLib.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\1348047057_kurs_valyut.jpg">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\1348047057_kurs_valyut.jpg">
       <PackagePath>Assets\1348047057_kurs_valyut.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\18.jpg">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\18.jpg">
       <PackagePath>Assets\18.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\666777762.jpg">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\666777762.jpg">
       <PackagePath>Assets\666777762.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\86ce30d4-fb1b-40ee-bd9e-83043b91b0fd.jpg">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\86ce30d4-fb1b-40ee-bd9e-83043b91b0fd.jpg">
       <PackagePath>Assets\86ce30d4-fb1b-40ee-bd9e-83043b91b0fd.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\abstract-silk.jpg">
+      <PackagePath>Assets\abstract-silk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\booksclock.jpg">
+      <PackagePath>Assets\booksclock.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\SimpleTile.png">
+      <PackagePath>Assets\SimpleTile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\SimpleTile2.png">
+      <PackagePath>Assets\SimpleTile2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\Accounts.xaml">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\Accounts.xaml">
       <PackagePath>Accounts.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\Balans.xaml">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\Balans.xaml">
       <PackagePath>Balans.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\Bills.xaml">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\Bills.xaml">
       <PackagePath>Bills.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\Budget.xaml">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\Budget.xaml">
       <PackagePath>Budget.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\Categories.xaml">
+      <PackagePath>Categories.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sirius\Desktop\RSOI\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova1\MyBuh\MyBuh\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\groupdev_12_s-zharov_s-ivliev_e-kochetkov_a-orlova_a-orlova\MyBuh\MyBuh\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
